@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tom and Jerry World</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+
+    <style>
+        /* Make the image fully responsive */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Alkatra', cursive;
+        }
+        
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- before Bootstrap we use css as  -->
+    <!--  <h1 style="text-align: center; color: orange; text-transform: capitalize; font-weight: bold;"> Welcome to the Tom & Jerry World :) </h1>
+    <hr> -->
+    <!-- after bootstrap we can use in two ways first downlod bootstrap file and then use Or CDN(content delivery network) -->
+    <!-- 
+    <h1 class="text-center text-success text-capitalize font-weight-bold"> Welcome to the Tom & Jerry World :) </h1>
+    <hr> -->
+
+
+    <!-- Now create a Website using Bootstrap  -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Tom & Jerry World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>About section</h1>
+                <p>Jerry,Yeah Tom we created our website...</p>
+            </div>
+        </div>
+    </header>
+    <!-- about us -->
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-5 ">About us Journey</h1>
+            <hr class="w-25 mx-auto pt-5">
+
+            <div class="row mb-5">
+                <div class="col-lg-6 col-md-6 col-12">
+
+                    <img src="/assest/Tom-And-Jerry-600x480.jpg " class="img-fluid " alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h1 class="text-center text-capitalize display-4">who are we?</h1>
+                    <hr class="w-25 mx-auto pt-5">
+                    <p>Tom and Jerry is an American cartoon series about a hapless cat's never-ending pursuit of a clever mouse. Tom is the scheming cat, and Jerry is the spunky mouse.</p>
+                    <button class="text-center btn bg-danger text-white ">Wanna Know more</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <p class="text-center text-capitalize bg-dark text-white">@This website is made only for Fun there is no intention to hurt any character image & Designed by priyanshu anand for any querie contact us at xyz@gmail.com
+        </p>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tom and Jerry World</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+
+    <style>
+        /* Make the image fully responsive */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Alkatra', cursive;
+        }
+        
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- before Bootstrap we use css as  -->
+    <!--  <h1 style="text-align: center; color: orange; text-transform: capitalize; font-weight: bold;"> Welcome to the Tom & Jerry World :) </h1>
+    <hr> -->
+    <!-- after bootstrap we can use in two ways first downlod bootstrap file and then use Or CDN(content delivery network) -->
+    <!-- 
+    <h1 class="text-center text-success text-capitalize font-weight-bold"> Welcome to the Tom & Jerry World :) </h1>
+    <hr> -->
+
+
+    <!-- Now create a Website using Bootstrap  -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Tom & Jerry World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- carousel part -->
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assest/wallpaperflare.com_wallpaper (1).jpg" alt="Los Angeles" width="1100" height="500">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="/assest/wallpaperflare.com_wallpaper (2).jpg" alt="Chicago" width="1100" height="500">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="/assest/wallpaperflare.com_wallpaper.jpg" alt="New York" width="1100" height="500">
+
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </header>
+    <!-- about us -->
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center text-capitalize pt-5 ">About us Journey</h1>
+            <hr class="w-25 mx-auto pt-5">
+
+            <div class="row mb-5">
+                <div class="col-lg-6 col-md-6 col-12">
+
+                    <img src="/assest/Tom-And-Jerry-600x480.jpg " class="img-fluid " alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h1 class="text-center text-capitalize display-4">who are we?</h1>
+                    <hr class="w-25 mx-auto pt-5">
+                    <p>Tom and Jerry is an American cartoon series about a hapless cat's never-ending pursuit of a clever mouse. Tom is the scheming cat, and Jerry is the spunky mouse.</p>
+                    <button class="text-center btn bg-danger text-white ">Wanna Know more</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- service part -->
+    <section>
+
+        <div class="container">
+            <h1 class="text-center text-capitalize pt-5 display-1">Our Joke's</h1>
+            <hr class="w-25 mx-auto pt-5">
+            <div class="row mb-5 text-center">
+                <div class="col-lg-4 col-md-4 col-12 mt-5">
+                    <div class="card">
+                        <img class="card-img-top" src="/assest/1.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Tom</h4>
+                            <p class="card-text">Jerry do you let your girlfriend touch your IPhone?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mt-5">
+                    <div class="card">
+                        <img class="card-img-top" src="/assest/2.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Tom & Jerry</h4>
+                            <p class="card-text">JERRY: Never....</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-5">
+                    <div class="card">
+                        <img class="card-img-top" src="/assest/3.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Jerry</h4>
+                            <p class="card-text">....Never idon't do that.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mt-5">
+                    <div class="card">
+                        <img class="card-img-top" src="/assest/4.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Tom</h4>
+                            <p class="card-text">But why?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mt-5">
+                    <div class="card">
+                        <img class="card-img-top" src="/assest/6.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Tom & Jerry</h4>
+                            <p class="card-text">JERRY: i got 2 reasons.TOM: go a head...</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mt-5">
+                    <div class="card">
+                        <img class="card-img-top" src="/assest/5.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Jerry</h4>
+                            <p class="card-text">first is that i don't have IPhone & the second is that i don't have a girlfreind.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- conytact demo  -->
+    <!-- <section class="bg-warning">
+        <article>
+            <div class="text-center mb-5 pt-5 pb-5 ">
+                <h3 class="display-2">+91-trn-trn-trn</h3>
+                <p class="text-capitalize text-center display-4">If u want more joke then go and search on google</p>
+                <button class="text-capitalize bg-danger text-white px-2">don't press</button>
+            </div>
+        </article>
+    </section> -->
+
+
+    <!-- register form in short -->
+    <section class="bg-warning">
+        <article>
+            <div class="text-center mb-5 pt-5 pb-5 ">
+                <h3 class="display-2 text-capitalize">Want to join</h3>
+                <p class="text-capitalize text-center display-4">Be a part of our laughing website</p>
+                <button class="text-capitalize bg-danger text-white px-2" data-toggle="modal" data-target="#myModal">Apply</button>
+            </div>
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Sign-up</h4>
+
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="email">Email address:</label>
+                                    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                                </div>
+                                <div class="form-group form-check">
+                                    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+    <!-- contact us  -->
+
+    <section>
+        <div class="container mb-5">
+            <h1 class="text-center text-capitalize pt-5 display-1">contact us</h1>
+            <hr class="w-25 mx-auto pt-5">
+            <div class="w-50 mx-auto">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="email">Your Name</label>
+                        <input type="text" class="form-control" id="email" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Email</label>
+                        <input type="email" class="form-control" id="pwd">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pwd">Mobile No</label>
+                        <input type="number" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group">
+                        <label>Textarea</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary ">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p class="text-center text-capitalize bg-dark text-white">@This website is made only for Fun there is no intention to hurt any character image & Designed by priyanshu anand for any querie contact us at xyz@gmail.com
+        </p>
+
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs//popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
