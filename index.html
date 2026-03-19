@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/ava-alert.css">
 
     <style>
         /* Make the image fully responsive */
@@ -270,25 +271,24 @@
             <h1 class="text-center text-capitalize pt-5 display-1">contact us</h1>
             <hr class="w-25 mx-auto pt-5">
             <div class="w-50 mx-auto">
-                <form action="/action_page.php">
+                <form id="contactForm" novalidate>
                     <div class="form-group">
-                        <label for="email">Your Name</label>
-                        <input type="text" class="form-control" id="email" autocomplete="off">
+                        <label for="contactName">Your Name</label>
+                        <input type="text" class="form-control" id="contactName" name="name" autocomplete="off" required>
                     </div>
                     <div class="form-group">
-                        <label for="pwd">Email</label>
-                        <input type="email" class="form-control" id="pwd">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="pwd">Mobile No</label>
-                        <input type="number" class="form-control" id="pwd">
+                        <label for="contactEmail">Email</label>
+                        <input type="email" class="form-control" id="contactEmail" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label>Textarea</label>
-                        <textarea class="form-control"></textarea>
+                        <label for="contactMobile">Mobile No</label>
+                        <input type="number" class="form-control" id="contactMobile" name="mobile">
                     </div>
-                    <button type="submit" class="btn btn-primary ">Submit</button>
+                    <div class="form-group">
+                        <label for="contactComment">Your Message</label>
+                        <textarea class="form-control" id="contactComment" name="comment" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="">Submit</button>
                 </form>
             </div>
 
@@ -307,6 +307,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs//popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="/ava-alert.js"></script>
+    <script src="/contact.js"></script>
+
 </body>
 
 </html>
